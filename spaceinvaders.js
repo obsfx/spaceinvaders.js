@@ -9,7 +9,7 @@ function createScreen() {
     screen.height = 325;
     info.setAttribute('id', 'info');
     info.innerHTML = '<br><div id="controls">Controls : [<][>][SPACE]</div><br><div id="mute">[MUTE]</div>' + 
-    '<div id="links">JS Practices - <a href="https://github.com/omerbalandi/omerbalandi.github.io/tree/master/SpaceInvadersJS">Source Code</a></div>';
+    '<div id="links"><a href="https://github.com/obsfx/spaceinvaders.js">Source Code</a></div>';
     
     document.body.appendChild(bg);
     document.body.appendChild(screen);
